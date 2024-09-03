@@ -1,0 +1,144 @@
+/* Alapbeállítások */
+body {
+  background-color: #f0f4f8;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Teljes szélességű megjelenítés */
+.container-fluid {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dashboard-container {
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+}
+
+/* Kártya stílus */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #007bff;
+  padding: 20px;
+}
+
+.card-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.dashboard-text {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Felhasználói adatok listája */
+.list-group-item {
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  border: none;
+  padding: 15px 20px;
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: #e9ecef;
+}
+
+/* Gombok */
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  transform: translateY(-2px);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+/* Értékelési űrlap */
+form {
+  margin-top: 30px;
+}
+
+form h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+form .form-control {
+  border-radius: 10px;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease;
+}
+
+form .form-control:focus {
+  box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.25);
+}
+
+form .form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+/* Kutyasétáltatók kártyái */
+#section2 .card {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#section2 .card img {
+  border-radius: 15px;
+}
+
+#section2 .card h5 {
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+
+#section2 .btn-primary {
+  margin-top: 15px;
+}

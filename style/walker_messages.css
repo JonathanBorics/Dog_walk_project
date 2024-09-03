@@ -1,0 +1,35 @@
+body {
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+}
+.dashboard-container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+.message-form,
+.message-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.message-form {
+  margin-right: 15px;
+}
+.message-list {
+  height: 400px;
+  overflow-y: auto;
+}
+.list-group-item {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-custom {
+  background-color: #007bff;
+}
+.navbar-custom a {
+  color: white;
+  font-weight: bold;
+}

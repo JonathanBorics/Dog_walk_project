@@ -1,0 +1,59 @@
+/* Általános stílusok */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333; /* Sötétebb háttérszín */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Árnyék hozzáadása */
+  padding: 10px 20px; /* Extra padding a navigációs sávban */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Nagyobb betűméret a márkanévhez */
+  font-weight: bold;
+  color: #fff; /* Fehér szín a márkanévhez */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #f8f9fa; /* Fehér szín a linkekhez */
+  font-weight: 500;
+  padding: 10px 15px; /* Extra padding a linkekhez */
+  transition: color 0.3s ease-in-out; /* Animált színváltás */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffc107; /* Sárga szín hover állapotban */
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #ffc107; /* Sárga szín az aktív linkhez */
+}
+
+.form-control {
+  margin-right: 10px; /* Távolság a mezők között */
+  border-radius: 5px; /* Kerekített szélek */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Kék gombszín */
+  border: none;
+  border-radius: 5px; /* Kerekített szélek a gombokhoz */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Sötétebb kék hover állapotban */
+}
+
+.btn-link {
+  color: #ffc107; /* Sárga szín a linkekhez */
+  font-weight: bold;
+}
+
+.btn-link:hover {
+  color: #ffa000; /* Sötétebb sárga hover állapotban */
+  text-decoration: underline; /* Aláhúzás hover állapotban */
+}
+/*                        */

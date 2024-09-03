@@ -1,0 +1,80 @@
+body {
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+}
+.dashboard-container {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+.card {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+  background-color: #007bff;
+  color: white;
+}
+.card-body {
+  padding: 20px;
+}
+.list-group-item {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating {
+  font-size: 1.5rem;
+  color: #ffc107;
+}
+.navbar {
+  margin-bottom: 30px;
+}
+.navbar .nav-link {
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+.navbar .nav-link:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+.dog-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.dog-details {
+  max-width: 70%;
+}
+.owner-info {
+  max-width: 25%;
+  text-align: right;
+}
+.owner-info button {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.owner-info button:hover {
+  background-color: #218838;
+}
+.list-group-item {
+  background-color: #f9f9f9;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
